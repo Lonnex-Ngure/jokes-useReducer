@@ -1,0 +1,117 @@
+// App.scss
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+  font-family: 'Arial, sans-serif';
+  background-color: #f0f0f0;
+  padding: 2em;
+  border-radius: 1em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 2em auto;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1em;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1em;
+  width: 100%;
+}
+
+input {
+  padding: 0.5em;
+  border-radius: 0.5em;
+  border: 2px solid #ccc;
+  width: 70%;
+  font-size: 1rem;
+  text-align: center;
+}
+
+input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+button {
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  border: none;
+  background-color: #007bff;
+  color: black;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.jokes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  width: 100%;
+}
+
+.joke {
+  background-color: white;
+  padding: 1em;
+  border: 2px solid #eee;
+  border-radius: 0.5em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+.joke-text {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 0.5em;
+}
+
+.text {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 0.5em;
+}
+
+.joke-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.joke-buttons button {
+  background-color: #28a745;
+  border: none;
+  color: white;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.joke-buttons button:hover {
+  background-color: #218838;
+}
+
+.joke-buttons button:last-child {
+  background-color: #dc3545;
+}
+
+.joke-buttons button:last-child:hover {
+  background-color: #c82333;
+}
